@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Samim FD";
+    src: url("assets\fonts\Samim-FD.woff2");
+}
+
+:root{
+    --nav-color: #9a1fff;
+    --nav-svg-fill-light:white;
+}
+
+*{
+    font-family: "Samim FD" !important;
+}
+
+.nav-shadow{
+    box-shadow:0px 4px 20px 0px rgba(69,69,69,0.46);
+
+
+}
+
+#app-header{
+    margin-right: 5px;
+    user-select: none;
+}
+
+.icon{
+    width: 23px;
+    height: 23px;
+}
+
+.icon path{
+    fill: var(--nav-svg-fill-light) !important;
+}
+
+
+.icon-mini-footer{
+    width: 28px;
+    height: 28px;
+}
+.icon-mini-footer-avtive path{
+    fill: var(--nav-color) !important;
+}
+
+.nav-color{
+    background-color: var(--nav-color);
+}
+
+
+main{
+    padding: 5px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.text-app-primery{
+    color: var(--nav-color) !important;
+}
+
+
+
+
+.bg-white-primery{
+    background-color: var(--mdb-white-rgb);
+
+}
+
+
+.app-navigation{
+    border-width: 1px 0 0 0;
+    border-top-color: gainsboro;
+    background-color: white;
+    border-style: solid;
+    height: 4rem;
+    box-shadow:0px 9px 25px 10px rgba(69,69,69,0.11);
+}
+
+.app-navigation button{
+    height: 90%;
+    width: 34%;
+
+}
+
+.h60px{
+    height: 60px;
+}
+.p9px{
+    padding: 9px !important;
+}
+
+
+.badge-primary{
+    background-color: #e8e1f3 !important;
+
+    font-size: 12px;
+}
+
